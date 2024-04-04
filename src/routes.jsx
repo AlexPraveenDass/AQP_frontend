@@ -1,7 +1,7 @@
 import {
   HomeIcon,
   UserCircleIcon,
-  TableCellsIcon,
+  UserGroupIcon,
   InformationCircleIcon,
   ServerStackIcon,
   RectangleStackIcon,
@@ -30,17 +30,17 @@ export const routes = [
         element: <Profile />,
       },
       {
-        icon: <TableCellsIcon {...icon} />,
-        name: "tables",
+        icon: <UserGroupIcon {...icon} />,
+        name: "Gestione Utente",
         path: "/tables",
         element: <Tables />,
       },
-      {
-        icon: <InformationCircleIcon {...icon} />,
-        name: "notifications",
-        path: "/notifications",
-        element: <Notifications />,
-      },
+      // {
+      //   icon: <InformationCircleIcon {...icon} />,
+      //   name: "notifications",
+      //   path: "/notifications",
+      //   element: <Notifications />,
+      // },
     ],
   },
   {
@@ -49,13 +49,13 @@ export const routes = [
     pages: [
       {
         icon: <ServerStackIcon {...icon} />,
-        name: "sign in",
+        name: "Accedi",
         path: "/sign-in",
         element: <SignIn />,
       },
       {
         icon: <RectangleStackIcon {...icon} />,
-        name: "sign up",
+        name: "registra Ora",
         path: "/sign-up",
         element: <SignUp />,
       },

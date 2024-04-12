@@ -53,12 +53,12 @@ export const routes = [
         path: "/sign-in",
         element: <SignIn />,
       },
-      {
-        icon: <RectangleStackIcon {...icon} />,
-        name: "registra Ora",
-        path: "/sign-up",
-        element: <SignUp />,
-      },
+      // {
+      //   icon: <RectangleStackIcon {...icon} />,
+      //   name: "registra Ora",
+      //   path: "/sign-up",
+      //   element: <SignUp />,
+      // },
     ],
   },
 ];
